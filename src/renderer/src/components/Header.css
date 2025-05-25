@@ -1,0 +1,31 @@
+/* css for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav button {
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.nav button:hover {
+  background-color: #9a48d0;
+  border-radius: 4px;
+}
+
